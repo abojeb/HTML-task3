@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>My profile page</title>
+    <style>
+        body {
+            width: 60%;
+            box-shadow: 0 4px 10px 0 rgba(141, 93, 219, 0.2);
+            background-color: rgb(240, 179, 176)
+        }
+        
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid rgb(224, 222, 222);
+            border-radius: 4px;
+            box-sizing: border-box;
+            marging-top: 6px;
+            margin-bottom: 16px;
+            resizing: vertical;
+        }
+        
+        input[type=submit] {
+            background-color: rgb(167, 126, 38);
+            color: rgb(211, 202, 202);
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+            background-color: #98a598;
+        }
+        
+        .container {
+            border-radius: 5px;
+            background-color: #ddbcbc;
+            padding: 20px;
+            position: relative;
+        }
+        
+        h1,
+        h2 {
+            color: antiquewhite;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My personal profile</h1>
+    <img src="images/my image.jpeg" alt="Benjamin profile image" weidth="400" height=300 />
+    <p><strong>Aboje benjamin Inalegwu </strong><br/>+23470-6801-0831</p>
+    <adress>
+        <p><a href="abojeb@rocketmail.com">abojeb@rocketmail.com</a><br/> 20,Onipakala Street,Ketu-Lagos</p>
+    </adress>
+    <p>I, am a physicist (M.sc) with good research background in physics of the earth <i>(Geopysics)</i> , <br/>i conducted research in both solid and space physics as well with oustanding sucess at pubication, <br/> also love teaching and impart knowledge
+        accros secondary to tertiary institution, i deliver talks,carryout voluntary services when the need arises.<br>Am interested in both male and women but value dream achievers and diversifying mind. <br/>I recently developed strong interest in web
+        development,degital design and coding, currently undergoing training with proffeessioner mind at <strong>Start.NG</strong>
+    </p>
+
+    <h2>Biodata</h2>
+    <ul>
+        <li><i>Name</i>: Aboje Benjamin Inalegwu</li>
+        <li><i>Nationality</i>: Nigerian</li>
+        <li><i>State of origin<i/>: Benue State</li>
+        <li><i>LGA</i>: Ohimini</li>
+        <li>
+            <Date>Date of Birth</i>: 05/10/1988</li>
+        <li>
+            <Home>Home Town</i>: Agadagba Ochaigede</li>
+        <li><i>Religion</i>: Chritianity</li>
+        <li><i>Ocuppation</i>: Researcher</li>
+        <li><i>Slack ID</i>: Aboje Benjamin Inalegwu</li>
+    </ul>
+
+    <div class="container">
+        <form action="action_page.php">
+            <label for="fname">First name</label>
+            <input type="text" id="fname" name="firstname" placeholder="your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="your last name..">
+            <label for="Country">Your country</label>
+            <select id="country" name="country">
+                <option value="Australia">Australia</option>
+                <option value="America">USA</option>
+                <option value="Ghana">Ghana</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Canada">Canada</option>
+                <option value="Algeria">Algeria</option>
+                <option value="Others">Others</option>
+
+            </select>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="write something..." style="height:100px"></textarea>
+            <input type="submit" value="Submit">
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
